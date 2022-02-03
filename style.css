@@ -1,0 +1,82 @@
+body {
+    margin:0;
+    text-align: center;
+    padding-top: 550px;
+}
+.profile {
+    border-radius: 50%;
+}
+#home {
+    position: absolute;
+    bottom: 0;
+    background:linear-gradient(#1ab8c9 0%,#c2d43b 100%);
+    display: table;
+    width: 100%;
+    height:100%;
+}
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+#name {
+    font-size: 50px;
+    font-family: cursive;
+}
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: monospace;
+}
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+.parallax-inner {
+    display:table-cell;
+    vertical-align: middle;
+}
+#bio {
+    padding: 63px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 199px;
+}
+.menu {
+    background-color: blanchedalmond;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+margin-top: 0px;
+z-index: 10;
+cursor: pointer;
+}
+.link {
+   display: inline;
+    padding-left: 30px;
+    padding-right:30px ;
+    padding-bottom:3.5px;
+    font-size: 21px;
+    font-family: 'Teko', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.link:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+#writing a {
+    text-decoration: underline!important;
+    color: rgb(64, 143, 100)!important;
+}
+#contact {
+    background-color: rgb(138, 224, 21)
+}
+#contact iframe {
+    width:80%;
+}
+.contact1 h3 {
+    display: inline;
+}
